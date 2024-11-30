@@ -5,6 +5,9 @@ chmod +x xlr.sh
 ./xlr.sh
 
 
+添加定时任务 
+
+echo "0 0 * * * cd /root && bash xlr.sh" | crontab -
 
 
 这个脚本是一个自动化工具，用于从 Cloudflare 获取和更新 DNS 记录。它执行了以下主要任务：
