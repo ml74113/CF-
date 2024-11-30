@@ -1,8 +1,10 @@
-一键拉去脚本
-
+1.一键拉去脚本
 wget https://github.xlr-wx.cn/https://github.com/ml74113/CloudflareST/releases/download/v2.2.5/xlr.sh
 chmod +x xlr.sh
 ./xlr.sh
+
+2.填写cloudflare账户信息
+运行脚本时，它会要求你输入云cloudflare的邮箱和API令牌密钥。登录cloudflare后，在个人资料中找到API令牌，复制并粘贴到脚本中账户信息
 
 
 添加定时任务 
