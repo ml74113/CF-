@@ -1,3 +1,12 @@
+一键拉去脚本
+
+wget https://github.xlr-wx.cn/https://github.com/ml74113/CloudflareST/releases/download/v2.2.5/xlr.sh
+chmod +x xlr.sh
+./xlr.sh
+
+
+
+
 这个脚本是一个自动化工具，用于从 Cloudflare 获取和更新 DNS 记录。它执行了以下主要任务：
 
     检查依赖命令是否存在并安装 ：例如 curl, jq, awk, 和 crontab。如果命令不存在，会自动尝试安装。
